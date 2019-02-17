@@ -5,18 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="www.yqc.com.advanced.ui.MainActivity">
+    tools:context="www.yqc.com.advanced.ui.WebViewActivity">
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="intent service"/>
+        android:text="web_view"/>
 
-    <ImageView
-        android:id="@+id/image"
+    <WebView
+        android:id="@+id/webview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn1"/>
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btn"/>
 
 </android.support.constraint.ConstraintLayout>
